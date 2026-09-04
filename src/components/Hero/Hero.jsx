@@ -1,4 +1,4 @@
-import heroImage from "../../assets/images/hero/hero.png";
+import heroImage from "../../assets/images/hero/hero.webp";
 
 import "./Hero.css";
 
@@ -14,6 +14,8 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Fresh seafood bowl"
+          fetchPriority="high"
+          decoding="async"
           className="hero-image-reveal h-full w-full scale-[1.01] object-cover object-center brightness-100 contrast-[1.02] saturate-[1.03]"
         />
       </div>

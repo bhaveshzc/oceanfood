@@ -1,5 +1,5 @@
 import brandIcon from "../../assets/images/icons/brand-icon.svg";
-import footerDish from "../../assets/images/footer/footer-dish.png";
+import footerDish from "../../assets/images/footer/footer-dish.webp";
 
 const containerClass =
   "mx-auto w-[calc(100%_-_56px)] max-w-[1384px] max-[1180px]:w-[calc(100%_-_42px)] max-[1180px]:max-w-[1080px] max-[767px]:w-[calc(100%_-_30px)] max-[380px]:w-[calc(100%_-_24px)]";
@@ -216,6 +216,8 @@ const Footer = () => {
           <img
             src={footerDish}
             alt="Fresh seafood dish"
+            loading="lazy"
+            decoding="async"
             className="h-full w-full transition object-cover duration-700 hover:scale-[1.025]"
           />
 

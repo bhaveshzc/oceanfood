@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
-import ctaDishSmall from "../../assets/images/cta/cta-dish-small.png";
-import ctaCrab from "../../assets/images/cta/cta-crab.png";
-import ctaSeafood from "../../assets/images/cta/cta-seafood.png";
+import ctaDishSmall from "../../assets/images/cta/cta-dish-small.webp";
+import ctaCrab from "../../assets/images/cta/cta-crab.webp";
+import ctaSeafood from "../../assets/images/cta/cta-seafood.webp";
 
 const containerClass =
   "mx-auto w-[calc(100%_-_56px)] max-w-[1384px] max-[1180px]:w-[calc(100%_-_42px)] max-[1180px]:max-w-[1080px] max-[767px]:w-[calc(100%_-_30px)] max-[380px]:w-[calc(100%_-_24px)]";
@@ -63,6 +63,8 @@ const CallToAction = () => {
               <img
                 src={ctaDishSmall}
                 alt="Fresh seafood dish"
+                loading="lazy"
+                decoding="async"
                 className="block h-full w-full object-cover object-center"
               />
             </span>
@@ -81,6 +83,8 @@ const CallToAction = () => {
               <img
                 src={ctaCrab}
                 alt="Premium crab ingredient"
+                loading="lazy"
+                decoding="async"
                 className="block h-full w-full object-cover object-center"
               />
             </span>
@@ -99,6 +103,8 @@ const CallToAction = () => {
               <img
                 src={ctaSeafood}
                 alt="Fresh seafood ingredients"
+                loading="lazy"
+                decoding="async"
                 className="block h-full w-full object-cover object-center"
               />
             </span>

@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
-import historyMain from "../../assets/images/history/history-main.png";
-import historyCooking from "../../assets/images/history/history-cooking.png";
-import historyPan from "../../assets/images/history/history-pan.png";
+import historyMain from "../../assets/images/history/history-main.webp";
+import historyCooking from "../../assets/images/history/history-cooking.webp";
+import historyPan from "../../assets/images/history/history-pan.webp";
 
 const History = () => {
   const sectionRef = useRef(null);
@@ -86,6 +86,8 @@ const History = () => {
             <img
               src={historyMain}
               alt="Chef preparing fresh seafood"
+              loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover object-center transition duration-700 group-hover:scale-[1.045] group-hover:brightness-[1.03]"
             />
           </figure>
@@ -96,6 +98,8 @@ const History = () => {
             <img
               src={historyCooking}
               alt="Chef cooking seafood in a pan"
+              loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover object-center transition duration-700 group-hover:scale-[1.045] group-hover:brightness-[1.03]"
             />
           </figure>
@@ -106,6 +110,8 @@ const History = () => {
             <img
               src={historyPan}
               alt="Fresh seafood being cooked"
+              loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover object-center transition duration-700 group-hover:scale-[1.045] group-hover:brightness-[1.03]"
             />
           </figure>

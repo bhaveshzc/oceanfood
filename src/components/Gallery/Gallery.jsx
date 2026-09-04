@@ -1,15 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 
-import galleryLights from "../../assets/images/gallery/gallery-lights.png";
-import galleryFountain from "../../assets/images/gallery/gallery-fountain.png";
-import galleryPalm from "../../assets/images/gallery/gallery-palm.png";
-import galleryTable from "../../assets/images/gallery/gallery-table.png";
-import galleryPatio from "../../assets/images/gallery/gallery-patio.png";
-import galleryDinner from "../../assets/images/gallery/gallery-dinner.png";
-import galleryHall from "../../assets/images/gallery/gallery-hall.png";
-import galleryCocktail from "../../assets/images/gallery/gallery-cocktail.png";
-import galleryBuilding from "../../assets/images/gallery/gallery-building.png";
-import galleryBar from "../../assets/images/gallery/gallery-bar.png";
+import galleryLights from "../../assets/images/gallery/gallery-lights.webp";
+import galleryFountain from "../../assets/images/gallery/gallery-fountain.webp";
+import galleryPalm from "../../assets/images/gallery/gallery-palm.webp";
+import galleryTable from "../../assets/images/gallery/gallery-table.webp";
+import galleryPatio from "../../assets/images/gallery/gallery-patio.webp";
+import galleryDinner from "../../assets/images/gallery/gallery-dinner.webp";
+import galleryHall from "../../assets/images/gallery/gallery-hall.webp";
+import galleryCocktail from "../../assets/images/gallery/gallery-cocktail.webp";
+import galleryBuilding from "../../assets/images/gallery/gallery-building.webp";
+import galleryBar from "../../assets/images/gallery/gallery-bar.webp";
 
 const galleryItems = [
   {
@@ -173,6 +173,8 @@ const Gallery = () => {
               <img
                 src={item.image}
                 alt={item.alt}
+                loading="lazy"
+                decoding="async"
                 className="block h-full w-full object-cover object-center transition duration-700 group-hover:scale-[1.045] group-hover:brightness-[1.04]"
               />
             </figure>

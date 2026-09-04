@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-import lobsterImage from "../../assets/images/showcase/lobster-chopsticks.png";
+import lobsterImage from "../../assets/images/showcase/lobster-chopsticks.webp";
 
 const ImageShowcase = () => {
   const sectionRef = useRef(null);
@@ -43,6 +43,8 @@ const ImageShowcase = () => {
         <img
           src={lobsterImage}
           alt="Lobster held by chopsticks"
+          loading="lazy"
+          decoding="async"
           className="h-full w-full object-cover object-center max-[991px]:object-[58%_center] max-[767px]:object-[62%_center] max-[520px]:object-[40%_center]"
         />
       </div>

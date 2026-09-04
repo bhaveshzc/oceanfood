@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 
-import salmonPlate from "../../assets/images/menu/menu-salmon-plate.png";
-import salmonBowl from "../../assets/images/menu/menu-salmon-bowl.png";
-import salmonSauce from "../../assets/images/menu/menu-salmon-sauce.png";
-import salmonFillet from "../../assets/images/menu/menu-salmon-fillet.png";
-import salmonDelicacy from "../../assets/images/menu/menu-salmon-delicacy.png";
-import soupBlack from "../../assets/images/menu/menu-soup-black.png";
-import soupRed from "../../assets/images/menu/menu-soup-red.png";
-import stewPan from "../../assets/images/menu/menu-stew-pan.png";
-import soupBowl from "../../assets/images/menu/menu-soup-bowl.png";
+import salmonPlate from "../../assets/images/menu/menu-salmon-plate.webp";
+import salmonBowl from "../../assets/images/menu/menu-salmon-bowl.webp";
+import salmonSauce from "../../assets/images/menu/menu-salmon-sauce.webp";
+import salmonFillet from "../../assets/images/menu/menu-salmon-fillet.webp";
+import salmonDelicacy from "../../assets/images/menu/menu-salmon-delicacy.webp";
+import soupBlack from "../../assets/images/menu/menu-soup-black.webp";
+import soupRed from "../../assets/images/menu/menu-soup-red.webp";
+import stewPan from "../../assets/images/menu/menu-stew-pan.webp";
+import soupBowl from "../../assets/images/menu/menu-soup-bowl.webp";
 
 const Menu = () => {
   const sectionRef = useRef(null);
@@ -96,6 +96,8 @@ const Menu = () => {
               <img
                 src={salmonPlate}
                 alt="Grilled salmon with salad and fries"
+                loading="lazy"
+                decoding="async"
                 className={imageClass}
               />
             </figure>
@@ -106,6 +108,8 @@ const Menu = () => {
               <img
                 src={salmonBowl}
                 alt="Salmon rice bowl"
+                loading="lazy"
+                decoding="async"
                 className={imageClass}
               />
             </figure>
@@ -116,6 +120,8 @@ const Menu = () => {
               <img
                 src={salmonSauce}
                 alt="Salmon with sauce"
+                loading="lazy"
+                decoding="async"
                 className={imageClass}
               />
             </figure>
@@ -126,6 +132,8 @@ const Menu = () => {
               <img
                 src={salmonFillet}
                 alt="Salmon fillet with greens"
+                loading="lazy"
+                decoding="async"
                 className={imageClass}
               />
             </figure>
@@ -161,6 +169,8 @@ const Menu = () => {
               <img
                 src={salmonDelicacy}
                 alt="Exquisite salmon delicacy plate"
+                loading="lazy"
+                decoding="async"
                 className={imageClass}
               />
             </figure>
@@ -184,6 +194,8 @@ const Menu = () => {
             <img
               src={soupBlack}
               alt="Black bowl seafood soup"
+              loading="lazy"
+              decoding="async"
               className={imageClass}
             />
           </figure>
@@ -205,6 +217,8 @@ const Menu = () => {
             <img
               src={soupRed}
               alt="Red bowl seafood soup"
+              loading="lazy"
+              decoding="async"
               className={imageClass}
             />
           </figure>
@@ -212,7 +226,13 @@ const Menu = () => {
           <figure
             className={`group m-0 aspect-square overflow-hidden bg-[#dededc] transition-all delay-[360ms] duration-700 max-[900px]:order-4 max-[640px]:order-none max-[640px]:delay-200 ${revealClass}`}
           >
-            <img src={stewPan} alt="Seafood stew pan" className={imageClass} />
+            <img
+              src={stewPan}
+              alt="Seafood stew pan"
+              loading="lazy"
+              decoding="async"
+              className={imageClass}
+            />
           </figure>
 
           <figure
@@ -221,6 +241,8 @@ const Menu = () => {
             <img
               src={soupBowl}
               alt="Spicy seafood soup bowl"
+              loading="lazy"
+              decoding="async"
               className={imageClass}
             />
           </figure>
