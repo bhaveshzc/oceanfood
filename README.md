@@ -2,43 +2,54 @@
 
 # OCEAN FOOD — Seafood Restaurant Landing Page
 
-A multi-section restaurant marketing site built with React and Tailwind CSS. Designed around a fresh seafood brand, the layout prioritizes food photography, sourcing narrative, and in-venue ambiance storytelling.
+A modern, responsive seafood restaurant landing page built with **React**, **Vite**, and **Tailwind CSS**. Designed around a fresh culinary brand with immersive food photography, brand storytelling, dish galleries, and responsive layout.
 
-## Live Demo
+## 🔗 Live Demo
 
-<a href="https://deluxe-sorbet-645d94.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Live%20Demo-View%20Site%20→-FF6B35?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" />
+Experience the live application here:
+
+<a href="https://oceanfood.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Live%20Demo-oceanfood.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
 </a>
 
----
-
-## Tech Stack
-
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,js" alt="React, Vite, Tailwind CSS, JavaScript" />
+🌐 **Direct Link:** [https://oceanfood.vercel.app/](https://oceanfood.vercel.app/)
 
 ---
 
-## Features
+## 🛠️ Tech Stack
 
-- **Full-bleed hero** — Large typographic heading over high-quality food photography
-- **Brand narrative section** — Cooking dynasty history and cuisine origin storytelling
-- **Ingredient showcase** — Multi-column photography grid highlighting quality ingredients
-- **Dish gallery** — Dedicated sections for signature dishes and fresh seafood soups
-- **Ambiance gallery** — Coastal Ivorian interior decor and venue photography grid
-- **Supplier trust section** — Sourcing transparency with visual layout
-- **Google Maps integration** — Embedded location map in the footer
-- **Fully responsive** — Optimized layout across desktop, tablet, and mobile
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css" alt="React, Vite, Tailwind CSS, JavaScript" />
+
+- **Framework:** [React 19](https://react.dev/)
+- **Bundler / Tooling:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
 ---
 
-## Getting Started
+## ✨ Features
+
+- 🌊 **Full-bleed Hero Section** — High-impact typography and hero food imagery
+- 📖 **Brand Storytelling** — Heritage, culinary tradition, and cuisine origin narrative
+- 🦐 **Ingredient Showcase** — Multi-column visual grid highlighting fresh, sustainable sourcing
+- 🍲 **Signature Dish Gallery** — Highlighting specialty seafood dishes and fresh soups
+- 🏛️ **Ambiance & Venue Gallery** — Coastal dining ambiance and interior decor showcase
+- 🤝 **Trust & Quality Assurance** — Supplier transparency and culinary philosophy
+- 📍 **Interactive Location & Map** — Embedded map for easy customer navigation
+- 📱 **Fully Responsive** — Seamlessly optimized across desktop, tablet, and mobile devices
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/NSniha/seafood-restaurant-landing.git
+git clone https://github.com/bhaveshzc/oceanfood.git
 
-# Navigate into the project
-cd seafood-restaurant-landing
+# Navigate into the project directory
+cd oceanfood
 
 # Install dependencies
 npm install
@@ -47,44 +58,65 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the application.
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
-seafood-restaurant-landing/
+oceanfood/
 ├── public/
-│   └── assets/
+│   ├── assets/
+│   └── favicon.svg
 ├── src/
 │   ├── components/
+│   │   ├── CallToAction/
+│   │   ├── Gallery/
+│   │   ├── Hero/
+│   │   ├── MapSection/
+│   │   └── ...
 │   ├── App.jsx
 │   └── main.jsx
 ├── index.html
 ├── package.json
-├── tailwind.config.js
 └── vite.config.js
 ```
 
 ---
 
-## Use This as a Template
+## 💡 Use This as a Template
 
-This project is a clean reference for:
-- Restaurant or food business landing pages
-- Multi-section marketing sites with photography grids
-- React + Tailwind CSS UI layout patterns
-- Vite project structure for frontend developers
+This project serves as a clean starting point and reference for:
+- Restaurant, café, or food business landing pages
+- Multi-section marketing websites with dynamic photography grids
+- Modern React + Tailwind CSS layout and styling patterns
+- Production-ready Vite frontend workflows
 
-Feel free to fork and customize for your own projects.
-
----
-
-## License
-
-[MIT](LICENSE) — free to use, modify, and distribute.
+Feel free to fork, customize, and adapt it for your own projects!
 
 ---
 
-Built by [NSniha](https://github.com/NSniha)
+## 👤 Author & Credits
+
+Developed with ❤️ by **Bhavesh Bisht**
+
+[![GitHub](https://img.shields.io/badge/GitHub-bhaveshzc-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bhaveshzc)
+[![Instagram](https://img.shields.io/badge/Instagram-@bhaveshzc-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bhaveshzc)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bakihanmadc@gmail.com)
+
+---
+
+## ⭐ Support & Feedback
+
+If you find this project helpful or inspiring, please consider giving it a **Star ⭐ on GitHub**!
+
+- 🌟 **Star the repository:** [https://github.com/bhaveshzc/oceanfood](https://github.com/bhaveshzc/oceanfood)
+- 🍴 **Fork the repository:** Feel free to build on top of this project
+- 🐛 **Feedback & Issues:** Have a suggestion or found an issue? Feel free to open an [Issue](https://github.com/bhaveshzc/oceanfood/issues)
+
+---
+
+## 📄 License
+
+This project is open-source and free to use, modify, and distribute under the MIT License.
