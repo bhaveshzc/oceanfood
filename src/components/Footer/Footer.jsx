@@ -191,7 +191,7 @@ const Footer = () => {
               >
                 <span className="text-white/60 group-hover:text-black/75">Developed by :</span>
                 <span className="font-semibold text-[#d8a06e] underline underline-offset-2 group-hover:text-black">
-                  SiteCaptain
+                  Biztxcle
                 </span>
                 <svg
                   className="h-3 w-3 text-[#d8a06e] transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-black"
